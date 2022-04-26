@@ -20,36 +20,40 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
-  <body class="flex align-center justify-center">
-    <div class="w-[1280px] h-[640px] vertical-center">
+  <body class="flex align-center justify-center md:h-[800px] md:w-[1440px] w-[750px] h-[1600px] bg-mobile">
+    <div class="md:w-[1280px] md:h-[640px] vertical-center vertical-center-mobile flex  flex-col  w-[610px] h-[1460px]  ">
       <img src="/images/logo.svg" alt="logo" class="mb-20" width="200px" />
-      <div class="flex">
+      <div class="flex flex-col md:flex-row align-center">
         <div>
           <img
             src="/images/illustration-mockups.svg"
             alt="illustration-mockups"
+            
           />
         </div>
-        <div class="w-[530px] relative top-10 left-10">
-          <h1 class="ft-600 text-white text-[40px]">
+        <div class="w-[530px] relative top-10 left-10 ">
+          <h1 class="ft-600 text-white text-[40px] ml-6 md:ml-0">
             Build The Community Your Fans Will Love
           </h1>
-          <p class="ft2-400 text-white mt-8">
+          <p class="ft2-400 text-white mt-8 md:text-left text-center md:text-sm text-2xl">
             Huddle re-imagines the way we build communities. You have a voice,
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
+          <div class="w-full align-center justify-center">
           <button
-            class="bg-white violet mt-5 text-center w-[200px] p-3 rounded-full shadow-2xl ft-400"
+            class="bg-white violet mt-5 text-center md:w-[200px] w-[50%] m-auto ml-[100px] md:ml-[0px] p-3 rounded-full shadow-2xl ft-400 "
           >
             Register
           </button>
+          </div>
           
         </div>
         <div class="absolute bottom-[-50px] right-0 flex zeb ">
         <img src="/images/twitter.svg" alt="twitter logo" width="50px" class=" mr-5 border p-3 rounded-full"  >
         <img src="/images/facebook.svg" alt="facebook logo" width="40px" height="40px" class=" mr-5 border p-3 rounded-full">
         <img src="/images/instagram.svg" alt=" instagram logo" width="50px" class="mr-5 border border-circle p-4 rounded-full">
+     
      </div>
   </body>
 </html>
