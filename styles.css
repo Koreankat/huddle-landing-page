@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+/* font-family: "Poppins", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  background-image: url(/images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
+}
+.ft-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.ft-400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.ft2-400 {
+  font-family: "Open Sans", sans-serif;
+}
+.soft-magenta {
+  color: hsl(300, 69%, 71%);
+}
+.violet {
+  color: hsl(257, 40%, 49%);
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+}
+.white {
+  fill: white;
+}
+.zeb:hover {
+  fill: hsl(300, 69%, 71%);
+}
